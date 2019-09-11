@@ -1,0 +1,198 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp"
+    tools:context=".Main2Activity"
+    android:background="#4A708B">
+
+    <TextView android:text="                                                                      Menu principal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F7F4F4"
+        android:id="@+id/Menu"
+        android:textAppearance="@string/abc_action_bar_home_description" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:startColor="#00008B"
+        android:orientation="vertical"
+        android:layout_below="@+id/Menu">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="runApp13"
+                android:drawableTop="@mipmap/circulo"
+                android:paddingTop="30dp"
+                android:textColor="#F7F4F4"
+                android:text="Circulo"
+                android:backgroundTint="#6A5ACD" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="runApp14"
+                android:drawableTop="@mipmap/cubo"
+                android:paddingTop="27dp"
+                android:textColor="#F7F4F4"
+                android:text="Cubo"
+                android:backgroundTint="#6A5ACD" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="runApp15"
+                android:drawableTop="@mipmap/bascara"
+                android:paddingTop="27dp"
+                android:textColor="#F7F4F4"
+                android:text="Baskara"
+                android:backgroundTint="#6A5ACD" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="runApp16"
+                android:drawableTop="@mipmap/quadrado"
+                android:paddingTop="27dp"
+                android:textColor="#F7F4F4"
+                android:text="Quadrado"
+                android:backgroundTint="#6A5ACD" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="runApp17"
+                android:drawableTop="@mipmap/retangulo"
+                android:paddingTop="27dp"
+                android:textColor="#F7F4F4"
+                android:text="Retangulo"
+                android:backgroundTint="#6A5ACD" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="runApp18"
+                android:drawableTop="@mipmap/pitagoras"
+                android:paddingTop="27dp"
+                android:textColor="#F7F4F4"
+                android:text="Pitagoras"
+                android:backgroundTint="#6A5ACD" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="runApp19"
+                android:drawableTop="@mipmap/trianguloisosceles"
+                android:paddingTop="27dp"
+                android:textColor="#F7F4F4"
+                android:text="Triangulo Isosceles"
+                android:backgroundTint="#6A5ACD" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="runApp20"
+                android:drawableTop="@mipmap/trianguloretangulo"
+                android:paddingTop="27dp"
+                android:textColor="#F7F4F4"
+                android:text="Triangulo Retangulo"
+                android:backgroundTint="#6A5ACD" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="runApp21"
+                android:drawableTop="@mipmap/losango"
+                android:paddingTop="27dp"
+                android:textColor="#F7F4F4"
+                android:text="Losango"
+                android:backgroundTint="#6A5ACD" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="runApp22"
+                android:drawableTop="@mipmap/trapezio"
+                android:paddingTop="27dp"
+                android:textColor="#F7F4F4"
+                android:text="Trapezio"
+                android:backgroundTint="#6A5ACD" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="runApp23"
+                android:drawableTop="@mipmap/hexagono"
+                android:paddingTop="27dp"
+                android:textColor="#F7F4F4"
+                android:text="Hexagono"
+                android:backgroundTint="#6A5ACD" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:onClick="runApp24"
+                android:drawableTop="@mipmap/paralelograma"
+                android:paddingTop="27dp"
+                android:textColor="#F7F4F4"
+                android:text="Paralelo grama"
+                android:backgroundTint="#6A5ACD" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
